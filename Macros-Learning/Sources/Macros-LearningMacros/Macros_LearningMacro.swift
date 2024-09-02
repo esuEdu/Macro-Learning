@@ -7,5 +7,8 @@ import SwiftSyntaxMacros
 struct Macros_LearningPlugin: CompilerPlugin {
     let providingMacros: [Macro.Type] = [
         EnumMemberMacro.self,
+        StringifyMacro.self,
+        URLMacro.self,
+        AddCompletionHandlerMacro.self,
     ]
 }

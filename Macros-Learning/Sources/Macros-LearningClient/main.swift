@@ -1,11 +1,6 @@
 import Macros_Learning
+import Foundation
 
-@EnumMember
-enum Brands {
-    case meta
-    case instagram
-    case twitter
-}
 
-print(Brands.instagram.website)
+
 

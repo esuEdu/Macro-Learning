@@ -9,6 +9,7 @@ import SwiftCompilerPlugin
 import SwiftSyntax
 import SwiftSyntaxBuilder
 import SwiftSyntaxMacros
+import SwiftUI
 
 public struct EnumMemberMacro: MemberMacro {
     public static func expansion<Declaration: DeclGroupSyntax, Context: MacroExpansionContext> (
@@ -42,3 +43,5 @@ public struct EnumMemberMacro: MemberMacro {
         ]
     }
 }
+
+
